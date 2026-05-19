@@ -4,8 +4,17 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Repository Purpose
 
-This is a GitHub profile repository (`yxyHeart/yxyHeart`). The only content is `README.md`, which renders as the user's GitHub profile page. There is no application code, build system, or test suite.
+GitHub profile repository (`yxyHeart/yxyHeart`). The `README.md` renders as the user's GitHub profile page. No application code, build system, or test suite.
 
 ## Profile Content
 
-The README displays technology badges for the user's skill set: HTML/CSS/JS/TypeScript, React/Vue, Webpack/Vite/Rollup, ESLint/Prettier, Git, VS Code, Less/Sass/TailwindCSS.
+The README displays technology badges grouped by category using shields.io `style=flat-square` format:
+- Frontend: React, Vue.js, TypeScript, TailwindCSS, Vite
+- Backend: Go, Java, Spring Boot, MySQL, Redis, Docker, Kafka, Kubernetes
+- AI: LangChain, OpenAI, Claude, LlamaIndex
+
+## Repository Structure
+
+- `README.md` — profile page content
+- `docs/superpowers/plans/` — implementation plans for past changes
+- `docs/superpowers/specs/` — design specs for past changes
